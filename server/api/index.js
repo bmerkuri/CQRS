@@ -1,5 +1,5 @@
 const axios = require('axios');
-const BASE_URL = "http://localhost:8080/v1/graphql";
+const BASE_URL = "https://8080-bmerkuri-cqrs-ztbc8ssvtis.ws-eu47.gitpod.io/v1/graphql";
 const ADMIN_SECRET = 'hasura'
 
 // 5 - creating branch

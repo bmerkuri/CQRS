@@ -11,7 +11,7 @@ event_triggers:
       num_retries: 0
       interval_sec: 10
       timeout_sec: 60
-    webhook: http://host.docker.internal:3010/execute-command
+    webhook: http://10.0.5.2:3010/execute-command
     request_transform:
       body:
         action: transform

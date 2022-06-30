@@ -1,1 +1,1 @@
-{"buildTargets":[],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+{"buildTargets":["backend","clean","db","hasura-init","install-backend","install-client","metadata-apply","metadata-export","migrate-apply","migrate-create","migrate-status","reset","seed-apply","seed-create","start","start-all","stop"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

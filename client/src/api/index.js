@@ -1,6 +1,6 @@
 import { cmdTypes } from "../constants";
 const axios = require("axios").default;
-const BASE_URL = "http://localhost:8080/v1/graphql";
+const BASE_URL = "https://8080-bmerkuri-cqrs-ztbc8ssvtis.ws-eu47.gitpod.io/v1/graphql";
 const ADMIN_SECRET = "hasura";
 const USER_ID = "Bjoni";
 
