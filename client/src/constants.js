@@ -9,4 +9,5 @@ export const itemStatus = {
 	OPEN: "open",
 	DELETED: "deleted",
 	CREATED: "created",
+	ERROR: "error",
 }

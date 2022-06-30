@@ -48,6 +48,13 @@ const createItemForDisplay = (item, command) => {
       status: itemStatus.PROCESSING,
     };
 
+    if(command.response_status.error){
+      return {
+        ...item,
+        status:itemStatus.ERROR,
+      };
+    }
+
   if (command.cmd_type === cmdTypes.UPDATE) {
     if (Boolean(command.last_response_at > item.updated_at)) {
       return {
