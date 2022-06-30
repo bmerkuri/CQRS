@@ -2,7 +2,7 @@ import { cmdTypes } from "../constants";
 const axios = require("axios").default;
 const BASE_URL = "http://localhost:8080/v1/graphql";
 const ADMIN_SECRET = "hasura";
-const USER_ID = "Gianni";
+const USER_ID = "Bjoni";
 
 /* export const fetchTodos = () => {
 	return axios({
